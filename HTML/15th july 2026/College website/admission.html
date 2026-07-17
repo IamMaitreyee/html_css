@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admission - G H Raisoni College of Engineering and Management</title>
+
+    <style>
+
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+            font-family:Arial, sans-serif;
+        }
+
+        body{
+            background:#f4f4f4;
+        }
+
+        header{
+            background:#003366;
+            color:white;
+            text-align:center;
+            padding:15px;
+        }
+
+        header img{
+            width:80px;
+            height:80px;
+        }
+
+        nav{
+            background:#0059b3;
+            text-align:center;
+            padding:15px;
+        }
+
+        nav a{
+            color:white;
+            text-decoration:none;
+            margin:20px;
+            font-size:18px;
+            font-weight:bold;
+        }
+
+        nav a:hover{
+            color:yellow;
+        }
+
+        .container{
+            width:60%;
+            margin:30px auto;
+            background:white;
+            padding:25px;
+            border-radius:10px;
+            box-shadow:0 0 10px gray;
+        }
+
+        h2{
+            color:#003366;
+            text-align:center;
+            margin-bottom:20px;
+        }
+
+        table{
+            width:100%;
+        }
+
+        td{
+            padding:10px;
+        }
+
+        input, select, textarea{
+            width:100%;
+            padding:8px;
+            border:1px solid #999;
+            border-radius:5px;
+        }
+
+        textarea{
+            resize:none;
+        }
+
+        .gender input{
+            width:auto;
+            margin-right:5px;
+        }
+
+        .buttons{
+            text-align:center;
+        }
+
+        .buttons input{
+            width:120px;
+            margin:10px;
+            background:#003366;
+            color:white;
+            border:none;
+            cursor:pointer;
+        }
+
+        .buttons input:hover{
+            background:#0059b3;
+        }
+
+        footer{
+            background:#003366;
+            color:white;
+            text-align:center;
+            padding:20px;
+            margin-top:20px;
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+<header>
+
+    <img src="images/logo.jpeg" alt="College Logo">
+
+    <h1>G H Raisoni College of Engineering and Management</h1>
+
+    <p>Pune, Maharashtra</p>
+
+</header>
+
+<nav>
+
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="courses.html">Courses</a>
+    <a href="faculty.html">Faculty</a>
+    <a href="gallery.html">Gallery</a>
+    <a href="admission.html">Admission</a>
+    <a href="contact.html">Contact</a>
+
+</nav>
+
+<div class="container">
+
+<h2>Admission Form</h2>
+
+<form>
+
+<table>
+
+<tr>
+<td>Full Name</td>
+<td><input type="text" placeholder="Enter Full Name" required></td>
+</tr>
+
+<tr>
+<td>Father's Name</td>
+<td><input type="text" placeholder="Enter Father's Name" required></td>
+</tr>
+
+<tr>
+<td>Mother's Name</td>
+<td><input type="text" placeholder="Enter Mother's Name" required></td>
+</tr>
+
+<tr>
+<td>Date of Birth</td>
+<td><input type="date" required></td>
+</tr>
+
+<tr>
+<td>Gender</td>
+<td class="gender">
+<input type="radio" name="gender"> Male
+<input type="radio" name="gender"> Female
+<input type="radio" name="gender"> Other
+</td>
+</tr>
+
+<tr>
+<td>Mobile Number</td>
+<td><input type="tel" placeholder="Enter Mobile Number" required></td>
+</tr>
+
+<tr>
+<td>Email</td>
+<td><input type="email" placeholder="Enter Email" required></td>
+</tr>
+
+<tr>
+<td>Address</td>
+<td><textarea rows="4" placeholder="Enter Address"></textarea></td>
+</tr>
+
+<tr>
+<td>City</td>
+<td><input type="text" placeholder="Enter City"></td>
+</tr>
+
+<tr>
+<td>State</td>
+<td>
+<select>
+<option>Select State</option>
+<option>Maharashtra</option>
+<option>Gujarat</option>
+<option>Karnataka</option>
+<option>Madhya Pradesh</option>
+<option>Goa</option>
+</select>
+</td>
+</tr>
+
+<tr>
+<td>Course</td>
+<td>
+<select required>
+<option>Select Course</option>
+<option>B.Tech Computer Engineering</option>
+<option>B.Tech Information Technology</option>
+<option>B.Tech AI & DS</option>
+<option>B.Tech Mechanical Engineering</option>
+<option>B.Tech Electronics & Telecommunication</option>
+<option>MCA</option>
+<option>MBA</option>
+</select>
+</td>
+</tr>
+
+<tr>
+<td>Qualification</td>
+<td><input type="text" placeholder="12th / Graduation"></td>
+</tr>
+
+<tr>
+<td>Percentage / CGPA</td>
+<td><input type="text" placeholder="Enter Percentage or CGPA"></td>
+</tr>
+
+<tr>
+<td>Upload Photo</td>
+<td><input type="file"></td>
+</tr>
+
+<tr>
+<td colspan="2" class="buttons">
+<input type="submit" value="Submit">
+<input type="reset" value="Reset">
+</td>
+</tr>
+
+</table>
+
+</form>
+
+</div>
+
+<footer>
+
+<p><strong>G H Raisoni College of Engineering and Management</strong></p>
+
+<p>Wagholi, Pune - 412207</p>
+
+<p>Email: info@ghraisoni.edu.in</p>
+
+<p>Phone: +91-1234567890</p>
+
+<p>&copy; 2026 GHRCEM Pune. All Rights Reserved.</p>
+
+</footer>
+
+</body>
+</html>

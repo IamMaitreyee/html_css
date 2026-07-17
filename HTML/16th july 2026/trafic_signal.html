@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Traffic Signal</title>
+
+    <style>
+        body{
+            margin:0;
+            display:flex;
+            justify-content:center;
+            align-items:center;
+            height:100vh;
+            background:#f0f0f0;
+        }
+
+        .main{
+            display:flex;
+            flex-direction:column;
+            gap:40px;
+        }
+
+        .container{
+            display:flex;
+            justify-content:center;
+            gap:100px;
+        }
+
+        .signal{
+            width:100px;
+            height:300px;
+            background:black;
+            border-radius:10px;
+            padding:20px;
+        }
+
+        .vertical{
+            transform:rotate(0deg);
+        }
+
+        .horizontal{
+            transform:rotate(-90deg);
+        }
+
+        .redlight{
+            width:80px;
+            height:80px;
+            background:red;
+            border-radius:50%;
+            margin:15px auto;
+        }
+
+        .yellowlight{
+            width:80px;
+            height:80px;
+            background:yellow;
+            border-radius:50%;
+            margin:15px auto;
+        }
+
+        .greenlight{
+            width:80px;
+            height:80px;
+            background:green;
+            border-radius:50%;
+            margin:15px auto;
+        }
+
+        .redlight:hover{
+            background:darkred;
+        }
+
+        .yellowlight:hover{
+            background:gold;
+        }
+
+        .greenlight:hover{
+            background:darkgreen;
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="main">
+
+    <div class="container">
+        <!-- 1st Signal (Vertical) -->
+        <div class="signal vertical">
+            <div class="redlight"></div>
+            <div class="yellowlight"></div>
+            <div class="greenlight"></div>
+        </div>
+
+        <!-- 2nd Signal (Horizontal) -->
+        <div class="signal horizontal">
+            <div class="redlight"></div>
+            <div class="yellowlight"></div>
+            <div class="greenlight"></div>
+        </div>
+    </div>
+
+    <div class="container">
+        <!-- 3rd Signal (Vertical) -->
+        <div class="signal vertical">
+            <div class="redlight"></div>
+            <div class="yellowlight"></div>
+            <div class="greenlight"></div>
+        </div>
+
+        <!-- 4th Signal (Horizontal) -->
+        <div class="signal horizontal">
+            <div class="redlight"></div>
+            <div class="yellowlight"></div>
+            <div class="greenlight"></div>
+        </div>
+    </div>
+
+</div>
+
+</body>
+</html>

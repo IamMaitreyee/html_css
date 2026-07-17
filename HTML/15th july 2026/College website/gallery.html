@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery - G H Raisoni College of Engineering and Management</title>
+
+    <style>
+
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+            font-family:Arial, sans-serif;
+        }
+
+        body{
+            background:#f4f4f4;
+        }
+
+        header{
+            background:#003366;
+            color:white;
+            text-align:center;
+            padding:15px;
+        }
+
+        header img{
+            width:80px;
+            height:80px;
+        }
+
+        nav{
+            background:#0059b3;
+            text-align:center;
+            padding:15px;
+        }
+
+        nav a{
+            color:white;
+            text-decoration:none;
+            margin:20px;
+            font-size:18px;
+            font-weight:bold;
+        }
+
+        nav a:hover{
+            color:yellow;
+        }
+
+        h2{
+            text-align:center;
+            color:#003366;
+            margin:30px 0;
+        }
+
+        .gallery{
+            display:flex;
+            flex-wrap:wrap;
+            justify-content:center;
+            gap:20px;
+            width:90%;
+            margin:auto;
+            margin-bottom:30px;
+        }
+
+        .gallery img{
+            width:300px;
+            height:220px;
+            border-radius:10px;
+            box-shadow:0 0 10px gray;
+            transition:0.4s;
+        }
+
+        .gallery img:hover{
+            transform:scale(1.05);
+        }
+
+        footer{
+            background:#003366;
+            color:white;
+            text-align:center;
+            padding:20px;
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+<header>
+
+    <img src="images/logo.jpeg" alt="College Logo">
+
+    <h1>G H Raisoni College of Engineering and Management</h1>
+
+    <p>Pune, Maharashtra</p>
+
+</header>
+
+<nav>
+
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="courses.html">Courses</a>
+    <a href="faculty.html">Faculty</a>
+    <a href="gallery.html">Gallery</a>
+    <a href="admission.html">Admission</a>
+    <a href="contact.html">Contact</a>
+
+</nav>
+
+<h2>College Gallery</h2>
+
+<div class="gallery">
+
+    <img src="images/gallery1.jpeg" alt="Campus Image">
+    <img src="images/gallery2.jpeg" alt="Library">
+    <img src="images/gallery3.jpeg" alt="Computer Lab">
+    <img src="images/gallery4.jpeg" alt="Classroom">
+    <img src="images/gallery5.jpeg" alt="Sports Event">
+    <img src="images/gallery6.jpeg" alt="College Event">
+    <img src="images/gallery7.jpeg" alt="Seminar Hall">
+    <img src="images/gallery8.jpeg" alt="Graduation Day">
+
+</div>
+
+<footer>
+
+    <p><strong>G H Raisoni College of Engineering and Management</strong></p>
+
+    <p>Wagholi, Pune - 412207</p>
+
+    <p>Email: info@ghraisoni.edu.in</p>
+
+    <p>Phone: +91-1234567890</p>
+
+    <p>&copy; 2026 GHRCEM Pune. All Rights Reserved.</p>
+
+</footer>
+
+</body>
+</html>
